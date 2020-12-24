@@ -1,4 +1,4 @@
-#### Cisco模式间的转换
+#### Cisco 模式间的转换
   
 #### 基本 show 命令
   查看路由表
@@ -6,15 +6,16 @@
   
 #### 基本配置
   名字
-  禁用DNS
+  禁用 DNS
   密码
   标语
   启动端口
   端口 IP 地址
   时钟频率
-  console、VTY 密码
-  console、VTY 隔离日志
-  console、VTY 超时
+  console、VTY
+    - 密码
+    - 隔离日志
+    - 超时
   
 #### 保存配置
   保存配置
@@ -23,7 +24,8 @@
   
 #### debug
   获得目标 ip 经过路径的所有地址
-  观察路由如何添加到路由表中、关闭观察路由如何添加到路由表中
+  观察路由如何添加到路由表中
+  关闭观察路由如何添加到路由表中
   
 #### route
   配置默认网关
@@ -36,7 +38,7 @@
   查看邻居
   开启 OSPF
   配置 OSPF 区域
-  修改 Hello 计时器
+  修改 hello 计时器
   修改 dead 计时器
   配置带宽的两种方法
   环回
@@ -51,7 +53,7 @@
   access 允许某个 VLAN 通过
   删除 access 允许某个 VLAN 通过
   中继
-    - 进入 trunk
+    - 端口模式设置为 trunk
     - 本征 vlan
     - 中继允许的 VLAN
   删除中继
@@ -60,15 +62,16 @@
     - 子接口
   
 #### 单词
+  synchronous
+  encapsulation
+  priority
+  neighbor
   tracert
   secret
   banner
   console
-  synchronous
   exec-timeout
   default
-  priority
   erase
   protocols
   neighbor
-  encapsulation
