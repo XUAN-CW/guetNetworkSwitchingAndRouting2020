@@ -4,6 +4,7 @@ banner
 console
 synchronous
 exec-timeout
+default
 priority
 erase
 protocols
